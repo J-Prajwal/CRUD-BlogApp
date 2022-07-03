@@ -33,7 +33,7 @@ const Articles = () => {
             blogs.map((product) => {
               return (
                 <GridItem>
-                  <BlogCard key={product.id} blogs={product} />;
+                  <BlogCard key={product.id} blogs={product} />
                 </GridItem>
               );
             })}

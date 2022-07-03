@@ -131,18 +131,6 @@
         "profile_pic": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
         "publish_date": "11/06/2022"
       }
-    },
-    {
-      "title": "Redux",
-      "sub_title": "State management being easy",
-      "thumbnail_pic": "https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
-      "description": "lorem ipsum - dummy data",
-      "author": {
-        "name": "",
-        "profile_pic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60",
-        "publish_date": "7/3/2022"
-      },
-      "id": 12
     }
   ]
 }

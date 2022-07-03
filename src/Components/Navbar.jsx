@@ -20,7 +20,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import ColorModeSwitcher from "./ColorModeSwitcher";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const { isOpen, onToggle, onClose } = useDisclosure();
@@ -59,7 +59,7 @@ const Navbar = () => {
                 icon={<HamburgerIcon w={7} h={7} />}
                 variant={"ghost"}
                 aria-label={"Toggle Navigation"}
-                />
+              />
             </Flex>
             <Flex
               flex={{ base: 1 }}
@@ -72,15 +72,16 @@ const Navbar = () => {
                 fontFamily={"heading"}
                 color={useColorModeValue("gray.800", "white")}
               >
-                <Heading size="md">BLOG APPLICATION</Heading>
+                <Link to={'/'}>
+                  <Heading size="md">BLOG APPLICATION</Heading>
+                </Link>
               </Text>
               <Text
-              style={{paddingLeft: "15px"}}
+                style={{ paddingLeft: "15px" }}
                 textAlign={useBreakpointValue({ base: "center", md: "left" })}
                 fontFamily={"heading"}
                 color={useColorModeValue("gray.800", "white")}
-              >
-              </Text>
+              ></Text>
               <Center>
                 <Flex display={{ base: "none", md: "flex" }} ml={10}>
                   {/* TODO */}
